@@ -267,6 +267,12 @@ name = case;
 },
 {
 automatic = 1;
+code = "sub zero by zero.zero;
+";
+name = zero;
+},
+{
+automatic = 1;
 code = "sub de-cy by de-cy.ss01;
 ";
 name = salt;
@@ -53734,6 +53740,127 @@ width = 683;
 }
 );
 unicode = 0039;
+},
+{
+glyphname = zero.zero;
+layers = (
+{
+components = (
+{
+name = slash;
+transform = "{0.65746, 0, 0, 0.65746, 157, 119}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"399 -10 OFFCURVE",
+"494 77 OFFCURVE",
+"539 266 CURVE SMOOTH",
+"554 326 OFFCURVE",
+"564 374 OFFCURVE",
+"575 434 CURVE SMOOTH",
+"609 620 OFFCURVE",
+"539 710 OFFCURVE",
+"388 710 CURVE SMOOTH",
+"235 710 OFFCURVE",
+"141 620 OFFCURVE",
+"97 434 CURVE SMOOTH",
+"82 374 OFFCURVE",
+"72 326 OFFCURVE",
+"61 266 CURVE SMOOTH",
+"26 77 OFFCURVE",
+"97 -10 OFFCURVE",
+"248 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"129 50 OFFCURVE",
+"97 115 OFFCURVE",
+"125 271 CURVE SMOOTH",
+"136 331 OFFCURVE",
+"144 369 OFFCURVE",
+"159 429 CURVE SMOOTH",
+"197 585 OFFCURVE",
+"272 650 OFFCURVE",
+"388 650 CURVE SMOOTH",
+"506 650 OFFCURVE",
+"539 585 OFFCURVE",
+"511 429 CURVE SMOOTH",
+"500 369 OFFCURVE",
+"492 331 OFFCURVE",
+"477 271 CURVE SMOOTH",
+"439 115 OFFCURVE",
+"362 50 OFFCURVE",
+"248 50 CURVE SMOOTH"
+);
+}
+);
+width = 614;
+},
+{
+components = (
+{
+name = slash;
+transform = "{0.48071, 0, 0, 0.48071, 225, 181}";
+}
+);
+layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"525 -9 OFFCURVE",
+"620 99 OFFCURVE",
+"662 246 CURVE SMOOTH",
+"677 300 OFFCURVE",
+"699 401 OFFCURVE",
+"707 458 CURVE SMOOTH",
+"728 604 OFFCURVE",
+"607 709 OFFCURVE",
+"426 710 CURVE",
+"225 709 OFFCURVE",
+"120 604 OFFCURVE",
+"79 458 CURVE SMOOTH",
+"63 401 OFFCURVE",
+"41 300 OFFCURVE",
+"34 246 CURVE SMOOTH",
+"14 99 OFFCURVE",
+"123 -9 OFFCURVE",
+"313 -10 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"298 185 OFFCURVE",
+"290 213 OFFCURVE",
+"296 250 CURVE SMOOTH",
+"305 307 OFFCURVE",
+"324 396 OFFCURVE",
+"339 451 CURVE SMOOTH",
+"348 485 OFFCURVE",
+"366 515 OFFCURVE",
+"406 516 CURVE",
+"446 515 OFFCURVE",
+"452 485 OFFCURVE",
+"447 451 CURVE SMOOTH",
+"438 396 OFFCURVE",
+"419 307 OFFCURVE",
+"404 250 CURVE SMOOTH",
+"394 213 OFFCURVE",
+"374 185 OFFCURVE",
+"336 185 CURVE SMOOTH"
+);
+}
+);
+width = 717;
+}
+);
 },
 {
 glyphname = zero.denominator;
